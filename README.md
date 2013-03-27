@@ -12,7 +12,7 @@ Drupal within Zombie.js easy and fun.
 Installation & Usage
 =====================
 Since this is a node.js library, you can install it and include it in your node.js
-package using ```npm install drupal.go.js```
+package using ```npm install drupalgo```
 
 Configuration
 ==============
@@ -60,7 +60,7 @@ Here is an example of how simple it is to write some automation with this librar
 Login, then create some nodes....
 ```
 var async =     require('async');
-var drupal =    require('./lib/drupal.js');
+var drupal =    require('drupalgo');
 
 // Load the config.json file... as seen above.
 var browser = drupal.load('config.json');
