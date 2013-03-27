@@ -1,0 +1,17 @@
+{
+  "host": "http://mediafront/",
+  "user": "admin",
+  "email": "travist349@gmail.com",
+  "nodes": [
+    {
+      "type": "article",
+      "title": "Hello There",
+      "body": "This is very cool!"
+    },
+    {
+      "type": "article",
+      "title": "This is another node",
+      "body": "Nice!"
+    }
+  ]
+}

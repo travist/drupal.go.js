@@ -1,0 +1,15 @@
+{
+  "name": "drupal_zombie",
+  "version": "0.0.1",
+  "description": "Automate things in Drupal using Node.js.",
+  "main": "./lib/drupal.js",
+  "engines": { "node": ">= 0.2.0" },
+  "dependencies": {
+    "zombie": ">=0",
+    "assert": ">=0",
+    "nconf": ">=0",
+    "prompt": ">=0",
+    "underscore": ">=0",
+    "async": ">=0"
+  }
+}
