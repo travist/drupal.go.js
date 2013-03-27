@@ -1,7 +1,7 @@
 {
-  "host": "http://mediafront/",
+  "host": "http://drupal.local/",
   "user": "admin",
-  "email": "travist349@gmail.com",
+  "email": "admin@example.com",
   "nodes": [
     {
       "type": "article",
