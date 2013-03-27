@@ -74,4 +74,36 @@ async.series([
 });
 ```
 
+Extending
+================
+This library is super easy to extend and create your own Drupal processes.  You
+can do so by simply attaching them to the Drupal object and then they can be
+utilized with ```drupal.go``` like other processes.  Here is an example.
+
+```
+var async =     require('async');
+var drupal =    require('drupalgo');
+
+// Add a new task to edit the node.
+drupal.editNode = function(done) {
+  async.series([
+    this.do('visit', 'node/1234/edit'),
+    this.do('fill', '#edit-title', 'Something else!'),
+    this.do('pressButton', '#edit-submit')
+  ], done);
+};
+
+// Load the config.json file... as seen above.
+var browser = drupal.load('config.json');
+
+// Login, then create some content, then EDIT A NODE!...
+async.series([
+  drupal.go('login'),
+  drupal.go('createMultipleContent', drupal.config.get('nodes')),
+  drupal.go('editNode')
+], function() {
+  console.log('We are done!');
+});
+```
+
 Happy Automating....
