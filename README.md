@@ -6,7 +6,7 @@ A node.js tool to automate and test Drupal using Zombie.js.
 Introduction
 ========================
 This node.js package provides an easy way to automate and test Drupal using
-the Zombie.js framework.  It provides some helpers that make working with
+the <a href='http://zombie.labnotes.org'>Zombie.js</a> framework.  It provides some helpers that make working with
 Drupal within Zombie.js easy and fun.
 
 Installation & Usage
