@@ -1,7 +1,6 @@
 {
   "host": "http://drupal.local/",
   "user": "admin",
-  "email": "admin@example.com",
   "nodes": [
     {
       "type": "article",

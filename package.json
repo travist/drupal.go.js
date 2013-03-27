@@ -1,7 +1,20 @@
 {
-  "name": "drupal.go.js",
+  "name": "drupalgo",
   "version": "0.0.1",
   "description": "A node.js package to automate and test Drupal using Zombie.js.",
+  "author": {
+    "name": "Travis Tidwell",
+    "email": "travist349@gmail.com",
+    "url": "http://github.com/travist"
+  },
+  "homepage": "http://github.com/travist/drupal.go.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/travist/drupal.go.js.git"
+  },
+  "bugs": {
+    "url": "http://github.com/travist/drupal.go.js/issues"
+  },
   "main": "./lib/drupal.js",
   "engines": { "node": ">= 0.2.0" },
   "dependencies": {
