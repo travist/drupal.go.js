@@ -1,6 +1,6 @@
 {
-  "host": "http://drupal.org/",
-  "user": "travist",
+  "host": "http://drupal.local/",
+  "user": "admin",
   "nodes": [
     {
       "type": "article",
