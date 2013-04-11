@@ -16,7 +16,7 @@
     "url": "http://github.com/travist/drupal.go.js/issues"
   },
   "main": "./lib/drupal.js",
-  "engines": { "node": ">= 0.2.0" },
+  "engines": { "node": "= 0.8.0" },
   "dependencies": {
     "zombie": ">=0",
     "assert": ">=0",
