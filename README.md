@@ -11,8 +11,29 @@ Drupal within Zombie.js easy and fun.
 
 Installation & Usage
 =====================
-Since this is a node.js library, you can install it and include it in your node.js
-package using ```npm install drupalgo```
+
+Step 1
+--------
+Install node.js by going to http://nodejs.org
+
+Step 2
+--------
+On OS X install the <a href="https://github.com/kennethreitz/osx-gcc-installer">OSX GCC installer</a>. 
+<em>On Windows you'll need Cygwin to get access to GCC, Python, etc. <a href="https://github.com/joyent/node/wiki/Building-node.js-on-Cygwin-(Windows)">Read this</a> for detailed instructions and troubleshooting.</em>
+
+Step 3
+--------
+Since this tool requires 0.8 of node.js or earlier, you will need to install the NVM.
+Go to https://github.com/creationix/nvm and follow the installation section.
+
+Step 4
+--------
+You can now install this library using NPM.
+
+```
+nvm use 0.8
+npm install drupalgo
+```
 
 Configuration
 ==============
