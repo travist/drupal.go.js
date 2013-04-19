@@ -108,9 +108,9 @@ var drupal =    require('drupalgo');
 // Add a new task to edit the node.
 drupal.editNode = function(done) {
   async.series([
-    this.do('visit', 'node/1234/edit'),
-    this.do('fill', '#edit-title', 'Something else!'),
-    this.do('pressButton', '#edit-submit')
+    this.go('visit', 'node/1234/edit'),
+    this.go('fill', '#edit-title', 'Something else!'),
+    this.go('pressButton', '#edit-submit')
   ], done);
 };
 
