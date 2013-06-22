@@ -1,6 +1,6 @@
 {
   "name": "drupalgo",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A node.js package to automate and test Drupal using Zombie.js.",
   "author": {
     "name": "Travis Tidwell",
