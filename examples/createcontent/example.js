@@ -1,5 +1,5 @@
 var async =     require('async');
-var drupal =    require('./lib/drupal.js');
+var drupal =    require('../../lib/drupal.js');
 
 // Tell Drupal to load the configuration.
 var browser = drupal.load('config.json');
@@ -10,7 +10,5 @@ async.series([
   drupal.go('createMultipleContent', drupal.config.get('nodes'))
 ], function() {
   console.log('Done!');
+  drupal.close();
 });
-
-
-
