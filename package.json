@@ -1,6 +1,6 @@
 {
   "name": "drupalgo",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "A node.js package to automate and test Drupal using PhantomJS or ZombieJS.",
   "author": {
     "name": "Travis Tidwell",
