@@ -1,6 +1,6 @@
 {
   "name": "drupalgo",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A node.js package to automate and test Drupal using PhantomJS or ZombieJS.",
   "author": {
     "name": "Travis Tidwell",
@@ -23,6 +23,7 @@
     "nconf": ">=0",
     "prompt": ">=0",
     "underscore": ">=0",
-    "async": ">=0"
+    "async": ">=0",
+    "asyncgo": ">=0"
   }
 }
