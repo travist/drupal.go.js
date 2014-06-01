@@ -9,7 +9,7 @@ This node.js package provides an easy way to automate and test Drupal using the 
 <a href="http://phantomjs.org/">Phantom.js</a>.
 It provides some helpers that make working with Drupal within a headless browser fun and easy.
 
-Default Installation (using Phantom.js)
+Installation
 =====================
 
 Step 1
