@@ -1,5 +1,5 @@
 {
-  "host": "http://localhost:8888",
+  "host": "http://localhost",
   "user": "admin",
   "nodes": [
     {

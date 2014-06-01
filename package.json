@@ -1,6 +1,6 @@
 {
   "name": "drupalgo",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "description": "A node.js package to automate and test Drupal using PhantomJS or ZombieJS.",
   "author": {
     "name": "Travis Tidwell",
@@ -18,8 +18,7 @@
   "main": "./lib/drupal.js",
   "engines": { "node": "= 0.8.0" },
   "dependencies": {
-    "zombie-phantom": ">=0",
-    "assert": ">=0",
+    "jquerygo": ">=0",
     "nconf": ">=0",
     "prompt": ">=0",
     "underscore": ">=0",
